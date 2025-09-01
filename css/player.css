@@ -184,7 +184,7 @@ footer{
 
 @media screen and (max-width: 820px){
     .csplayer_info {
-        bottom: -10px;
+        bottom: -5%;
         font-size: 20px;
        
     }
@@ -286,6 +286,11 @@ footer{
     .cs_main_pl{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .cs_main_pl img{
+        width: 25vw;
+        height: 35vw;
+        object-fit: cover;
     }
     /* .cs_main_pl>div{
         width: calc(47% - 50px);
