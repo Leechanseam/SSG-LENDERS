@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.cspl_hd1{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.cspl_hd1 h2{
+    margin-left: 50px;
+    color:#FFF;
+    font-size: 48px; font-weight: 700;
+}
+
+.cspl_more{
+    width: 10%;
+    display: flex;
+    padding-bottom: 30px;
+    padding-left:50px ;
+    margin-top: 40px;
+}
+.cspl_more img{
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.cspl_more:hover img{
+    border: 2px solid #FFF;
+    transform: scale(1.1);  
+}
+.cspl{
+    background-image: url(../img/baseball-1854436_1920.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.cspl_1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.cspl_img{
+    box-sizing: border-box;
+    background: rgb(0, 5, 8, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    width: 380px;
+    
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+.cspl_img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+    display: block;
+}
+.cspl_img h3{
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.cspl_img p{
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.cspl_img:hover{
+ transform: scale(1.05);
+  background: #FFF;
+  color: #ca0a22;
+}
+.cspl_img:hover h3,.cspl_img:hover h3{
+    color: #191919;
+}
+
+@media screen and (max-width: 820px){
+    .cspl_1{
+        flex-wrap: wrap;
+       margin: 0 auto;
+    }
+    .cspl_img{
+        display: inline-block;
+       width:calc((100% - 150px)/1); 
+    }
+
+.cspl_img h3{
+    margin-top: 15px;
+    font-size: 17px;
+}
+.cspl .cspl_img:nth-of-type(2),.cspl .cspl_img:nth-of-type(3),.cspl .cspl_img:nth-of-type(4){
+    display: none;
+}
+
+   
+}
